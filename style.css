@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar star */
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#ffffff;
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li{
+    float:right;
+    margin-right: 0px;
+}
+
+nav ul li:hover a{
+     color:#000;
+}
+
+nav ul li a{
+     display: block;
+     padding: 25px;
+     color: rgb(78, 78, 78);
+     text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: medium;
+    font-weight: 200; 
+}
+/* navbar end */
+
+body{
+    /* margin: 0px 20px 20px 20px; */
+    padding: 20px;
+
+    background: whitesmoke;
+}
+/* navbar
+nav{
+    background: white;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 5) 0px 2px 4px;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+} */
+
+/* user */
+.user{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
+.user .left{
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    margin: 10px 20px 10px 10px;
+}
+img{
+    border-radius: 50%;
+}
+.user .left-1{
+    margin-right: 150px;
+}
+.user .right{
+    margin-right: 60px;
+    font-weight: bold;
+}
+/* button */
+.btn{
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.res{
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+/* form */
+.form{
+    margin-top: 30px;
+    background: white;
+}
+.form-control{
+    display: flex;
+    width: 1300px;
+    height: 30px;
+  /* padding: 0.375rem 0.75rem; */
+    font-size: 14;
+    border: 1px solid black;
+    border-radius: 3PX;
+}
+label{
+    font-weight: bold;
+}
+.submit{
+    display: flex;
+    padding: 10px 630px;
+  /* padding: 0.375rem 0.75rem; */
+    font-size: 14;
+    border: 1px solid green;
+    color: white;
+    background: green;
+    text-align: center;
+    border-radius: 3px;
+}
+
